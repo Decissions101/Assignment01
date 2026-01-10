@@ -4,3 +4,8 @@ version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 authors = [{ name = "Øystein Nordberg", email = "oystein@midlaier.no" }]
+
+dependencies = [
+    "ipykernel~=7.1.0",
+    "pandas~=2.3.0",
+]

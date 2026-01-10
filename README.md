@@ -41,11 +41,25 @@ Before starting, ensure you have:
    - Enter the repository URL: `https://github.com/ing3513/course-materials.git`
    - Select a folder location and open the cloned repository
 
-7. **Setup Python Environment**
+7. **Install Recommended Extensions**
+   - When you open the repository, VS Code will prompt you to install recommended extensions
+   - Click "Install" to automatically install Python, Jupyter, and WSL extensions
+   - Alternatively, you can manually install them from the Extensions view (Ctrl+Shift+X)
+
+8. **Setup Python Environment**
    - Open a terminal in VS Code (Ctrl+`)
    - Run the setup script: `./scripts/setupPythonEnvironment.sh`
    - This will install uv, Python 3.13, and all project dependencies
    - If this is your first run, restart your terminal or run: `source ~/.bashrc`
+
+9. **Verify Installation**
+   - Open `labs/lab00/lab00.ipynb` in VS Code
+   - Click "Select Kernel" in the top right corner of the notebook
+   - Choose "Python Environments..." and select the `ing3513` environment
+   - Run the verification cell (click the play button or press Shift+Enter)
+   - You should see pandas version information and a success message
+
+**Congratulations! You are now set up and ready to work with Jupyter notebooks in this course.**
 
 ## About the Python Environment
 
