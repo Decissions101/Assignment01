@@ -7,6 +7,7 @@ Lab material for [ING3513](https://www.forsvaret.no/utdanning/emner/ING3513).
 ### Prerequisites
 
 Before starting, ensure you have:
+
 - A GitHub account
 - Access to the `ing3513/course-materials` repository
 
@@ -78,3 +79,23 @@ This course uses [uv](https://docs.astral.sh/uv/), a modern Python package and p
 - `uv add <package>` - Add a new dependency
 - `uv sync --locked` - Sync dependencies from lockfile (use `--locked` to ensure exact versions match)
 - `uv python install` - Install Python versions
+
+## Code Formatting and Linting
+
+This project uses [Ruff](https://docs.astral.sh/ruff/) for code formatting and linting. Ruff is an extremely fast Python linter and formatter.
+
+### Automatic Formatting
+
+VS Code is configured to automatically format your code on save, both in Python files and Jupyter notebooks. This includes:
+
+- Code formatting (consistent style)
+- Import sorting
+- Auto-fixing common issues
+
+### Manual Commands
+
+If you need to run formatting or linting manually:
+
+- `uv run ruff format .` - Format all Python files
+- `uv run ruff check .` - Check for linting issues
+- `uv run ruff check --fix .` - Auto-fix linting issues where possible

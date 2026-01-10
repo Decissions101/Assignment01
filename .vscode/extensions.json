@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "charliermarsh.ruff",
     "ms-vscode-remote.remote-wsl",
     "ms-toolsai.jupyter",
     "ms-python.python"
