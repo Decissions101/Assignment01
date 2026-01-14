@@ -8,6 +8,7 @@ authors = [{ name = "Øystein Nordberg", email = "oystein@midlaier.no" }]
 dependencies = [
     "ipykernel~=7.1.0",
     "ipywidgets~=8.1.8",
+    "nbformat~=5.10.4",
     "numpy~=2.4.1",
     "matplotlib~=3.10.8",
     "pandas~=2.3.0",
